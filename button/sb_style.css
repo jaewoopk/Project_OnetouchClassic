@@ -8,10 +8,57 @@
 body {
     margin: 0;
     height: 100%;
-    background-image: linear-gradient(to top, #e1fdff 0%, #ffebe9 100%);
+    background-image: linear-gradient(to top, #eafcfd 0%, #fffef2 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    animation: fadein 1.2s;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.1;
+    }
+
+    20% {
+        opacity: 0.2;
+    }
+
+    30% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    70% {
+        opacity: 0.7;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    90% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .button_energetic {
@@ -55,7 +102,7 @@ body {
     font-family: 'GangwonEdu_OTFBoldA';
     font-weight: 700;
     font-size: 1.2rem;
-    background-color: rgb(255, 254, 213);
+    background-color: rgb(255, 254, 183);
     padding: 17px 60px;
     margin: 0 auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
@@ -77,8 +124,8 @@ body {
     background: #fffcf5;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    -webkit-transform: translateX(-102%) translateY(-25%) rotate(45deg);
+    transform: translateX(-102%) translateY(-25%) rotate(45deg);
 }
 
 .btn_energetic:hover:after {
@@ -99,7 +146,7 @@ body {
     font-family: 'GangwonEdu_OTFBoldA';
     font-weight: 700;
     font-size: 1.2rem;
-    background-color: rgb(210, 254, 255);
+    background-color: rgb(203, 254, 255);
     padding: 17px 60px;
     margin: 0 auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
@@ -120,8 +167,8 @@ body {
     background: #fffcf5;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    -webkit-transform: translateX(-102%) translateY(-25%) rotate(45deg);
+    transform: translateX(-102%) translateY(-25%) rotate(45deg);
 }
 
 .btn_gloomy:hover:after {
@@ -163,8 +210,8 @@ body {
     background: #fffcf5;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    -webkit-transform: translateX(-102%) translateY(-25%) rotate(45deg);
+    transform: translateX(-102%) translateY(-25%) rotate(45deg);
 }
 
 .btn_anger:hover:after {
@@ -206,8 +253,8 @@ body {
     background: #fffcf5;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    -webkit-transform: translateX(-102%) translateY(-25%) rotate(45deg);
+    transform: translateX(-102%) translateY(-25%) rotate(45deg);
 }
 
 .btn_serenity:hover:after {
