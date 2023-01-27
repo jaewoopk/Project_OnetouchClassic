@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 50px 0px 10px 0px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 40px;
+    text-align: center;
+}
+header p {
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+}
+.pads{
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    cursor: pointer;
+}
+.pads > div:hover {
+    background: lightsteelblue;
+}
+.pad1 {
+    background: lightseagreen;
+}
+.pad2 {
+    background: rgb(178, 32, 112);
+}
+.pad3 {
+    background: rgb(214, 141, 30);
+}
+.pad4 {
+    background: rgb(64, 55, 196);
+}
+.pad5 {
+    background: rgb(4, 184, 13);
+}
+.pad6 {
+    background: rgb(216, 55, 189);
+}
+
+@keyframes jump {
+    0%{
+        bottom : 0%;
+        left: 20%;
+    }
+    25%{
+        bottom : 35%;
+        left: 15%;
+    }
+    50%{
+        bottom : 50%;
+        left: 50%;
+    }
+    100% {
+        bottom: 0%;
+        left: 80%;
+    }
+}
+.visual > div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0%;
+    z-index: 1;
+}
+.title{
+    position: relative;
+    color: grey;
+    text-align: center;
+    margin: 0 auto;
+}
