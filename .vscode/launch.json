@@ -9,9 +9,9 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}/button",
+            "webRoot": "${workspaceFolder}/webpageLearning",
             //"file":"sunnyButton.html"
-            "file":"classicRun.html"
+            "file":"buttonLearn.html"
         }
     ]
 }

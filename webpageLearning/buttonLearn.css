@@ -1,0 +1,59 @@
+button:nth-child(1) {
+    animation: button1 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(2) {
+    animation: button2 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(3) {
+    animation: button3 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(4) {
+    animation: button4 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(5) {
+    animation: button5 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(6) {
+    animation: button6 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(7) {
+    animation: button7 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(8) {
+    animation: button8 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(9) {
+    animation: button9 2s ease-in-out infinite;
+  }
+  
+  button:nth-child(10) {
+    animation: button10 2s ease-in-out infinite;
+  }
+  
+  @keyframes button1 {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0px); }
+  }
+  
+  @keyframes button2 {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes button3 {
+    0% { transform: scale(1); }
+    50% { transform: scale(2); }
+    100% { transform: scale(1); }
+  }
+
+  
